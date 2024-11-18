@@ -250,6 +250,8 @@ public enum Model
     B650M_AORUS_ELITE_AX,
     X870_AORUS_ELITE_WIFI7,
     X870E_AORUS_ELITE_WIFI7,
+    X870E_AORUS_PRO_ICE,
+    X870E_AORUS_PRO,
 
     // Shuttle
     FH67,
