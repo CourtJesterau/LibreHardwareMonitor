@@ -113,6 +113,9 @@ internal class Identification
                 return Model.X870_AORUS_ELITE_WIFI7;
             case var _ when name.Equals("X870E AORUS ELITE WIFI7", StringComparison.OrdinalIgnoreCase):
                 return Model.X870E_AORUS_ELITE_WIFI7;
+			case var _ when name.Equals("X870E AORUS PRO ICE", StringComparison.OrdinalIgnoreCase):
+			case var _ when name.Equals("X870E AORUS PRO", StringComparison.OrdinalIgnoreCase):
+                return Model.X870E_AORUS_PRO;
             case var _ when name.Equals("880GMH/USB3", StringComparison.OrdinalIgnoreCase):
                 return Model._880GMH_USB3;
             case var _ when name.Equals("B85M-DGS", StringComparison.OrdinalIgnoreCase):
