@@ -2453,7 +2453,7 @@ internal sealed class SuperIOHardware : Hardware
                         v.Add(new Voltage("CMOS Battery", 8, 1, 1));
                         t.Add(new Temperature("PCIe x4", 0));
                         t.Add(new Temperature("EC_TEMP2", 1));
-                        t.Add(new Temperature("System #2", 1));
+                        t.Add(new Temperature("System #2", 2));
                         f.Add(new Fan("System Fan #5 / Pump", 0));
                         f.Add(new Fan("System Fan #6 / Pump", 1));
                         f.Add(new Fan("System Fan #4 ", 2));
